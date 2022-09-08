@@ -78,8 +78,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0,  
-                            spreadRadius: 5.0, 
+                            blurRadius: 25.0,
+                            spreadRadius: 5.0,
                             offset: Offset.zero)
                       ],
                       border: Border.all(
@@ -184,8 +184,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0,  
-                            spreadRadius: 5.0,  
+                            blurRadius: 25.0,
+                            spreadRadius: 5.0,
                             offset: Offset.zero)
                       ],
                       border: Border.all(
@@ -343,8 +343,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0,  
-                            spreadRadius: 5.0,  
+                            blurRadius: 25.0,
+                            spreadRadius: 5.0,
                             offset: Offset.zero)
                       ],
                       border: Border.all(
@@ -450,8 +450,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0,  
-                            spreadRadius: 5.0,  
+                            blurRadius: 25.0,
+                            spreadRadius: 5.0,
                             offset: Offset.zero)
                       ],
                       border: Border.all(
