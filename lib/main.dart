@@ -54,7 +54,7 @@ class _MyAppState extends State<MyApp> {
                 print("CART");
               },
             ),
-            // add more IconButton
+            
           ],
         ),
         body: Container(
@@ -78,8 +78,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0, // soften the shadow
-                            spreadRadius: 5.0, //extend the shadow
+                            blurRadius: 25.0,  
+                            spreadRadius: 5.0, 
                             offset: Offset.zero)
                       ],
                       border: Border.all(
@@ -117,8 +117,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #1");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.favorite, color: myColor1),
                         elevation: 20,
@@ -138,8 +137,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #1");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.info, color: Colors.black),
                         elevation: 20,
@@ -159,8 +157,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #1");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child:
                             Icon(Icons.add_shopping_cart, color: Colors.black),
@@ -187,8 +184,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0, // soften the shadow
-                            spreadRadius: 5.0, //extend the shadow
+                            blurRadius: 25.0,  
+                            spreadRadius: 5.0,  
                             offset: Offset.zero)
                       ],
                       border: Border.all(
@@ -226,8 +223,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #2");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.favorite, color: myColor2),
                         elevation: 20,
@@ -243,8 +239,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #2");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.info, color: Colors.black),
                         elevation: 20,
@@ -260,8 +255,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #2");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child:
                             Icon(Icons.add_shopping_cart, color: Colors.black),
@@ -295,8 +289,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #3");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.favorite, color: myColor3),
                         elevation: 20,
@@ -312,8 +305,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #3");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.info, color: Colors.black),
                         elevation: 20,
@@ -329,8 +321,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #3");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child:
                             Icon(Icons.add_shopping_cart, color: Colors.black),
@@ -352,8 +343,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0, // soften the shadow
-                            spreadRadius: 5.0, //extend the shadow
+                            blurRadius: 25.0,  
+                            spreadRadius: 5.0,  
                             offset: Offset.zero)
                       ],
                       border: Border.all(
@@ -395,8 +386,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #4");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.favorite, color: myColor4),
                         elevation: 20,
@@ -416,8 +406,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #4");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(Icons.info, color: Colors.black),
                         elevation: 20,
@@ -437,8 +426,7 @@ class _MyAppState extends State<MyApp> {
                           log("button #4");
                         },
                         height: 40,
-                        textColor: Colors.white,
-                        splashColor: Color.fromARGB(255, 250, 17, 0),
+                        splashColor: Colors.amber,
                         color: Colors.white,
                         child: Icon(
                           Icons.add_shopping_cart,
@@ -462,8 +450,8 @@ class _MyAppState extends State<MyApp> {
                         BoxShadow(
                             blurStyle: BlurStyle.outer,
                             color: Colors.black,
-                            blurRadius: 25.0, // soften the shadow
-                            spreadRadius: 5.0, //extend the shadow
+                            blurRadius: 25.0,  
+                            spreadRadius: 5.0,  
                             offset: Offset.zero)
                       ],
                       border: Border.all(
@@ -484,7 +472,7 @@ class _MyAppState extends State<MyApp> {
                   Container(
                     color: Color.fromARGB(39, 0, 0, 0),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisSize: MainAxisSize.min,
                       children: [
                         IconButton(
                           onPressed: () {
